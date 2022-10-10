@@ -1,0 +1,303 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 15px;
+    font-family: 'Poppins', sans-serif;
+    background-color: rgb(0, 0, 0);
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
+}
+
+header h2 {
+    margin-right: auto;
+    margin-left: 10px;
+    padding-left: 20px;
+    cursor: pointer;
+    transition: all .7s ease 0s;
+    transform: scale(1);
+    color: white;
+}
+
+header h2:hover {
+    transform: scale(1.1);
+    letter-spacing: 2px;
+}
+
+nav ul {
+    display: flex;
+    width: 100px;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+nav li {
+    list-style: none;
+    transition: all .7s ease 0s;
+}
+
+nav li:hover {
+    letter-spacing: 2px;
+    font-weight: 500;
+}
+
+.point ul {
+    right: 0;
+    position: absolute;
+    display: none;
+    width: 200px;
+    margin: 25px auto;
+    background-color: black;
+}
+
+.point ul li {
+    width: 100%;
+    margin: 20px auto;
+    background-color: black;
+}
+
+.point ul a {
+    color: white;
+}
+
+.point:hover>ul {
+    display: initial;
+}
+
+.container-image {
+    background-image: url(/asset/robot.jpg);
+    background-size: cover;
+    background-position: 0px -200px;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+
+.container-page {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.container-page .tagOne {
+    font-size: 4pc;
+    letter-spacing: 2px;
+}
+
+.content-revolusi {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 10px auto 20px auto;
+    padding: 10px;
+    text-align: center;
+}
+
+.link {
+    font-size: 18px;
+    letter-spacing: 1px;
+    margin-bottom: 30px;
+}
+
+.tag {
+    margin-bottom: 50px;
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+}
+
+.tag .tagOne {
+    letter-spacing: 1px;
+    font-size: 2pc;
+}
+
+.tag .tagTwo {
+    font-size: 1pc;
+    letter-spacing: 1px;
+}
+
+.content {
+    font-size: 15px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+hr {
+    margin: 50px auto 30px auto;
+    width: 90%;
+}
+
+footer {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-copyright {
+    font-size: 15px;
+    text-align: center;
+}
+
+.footer-copyright .indo {
+    font-size: 14px;
+}
+
+.link ul {
+    display: flex;
+}
+
+.link li {
+    list-style: none;
+    padding-left: 40px;
+}
+
+.link i {
+    font-size: 18px;
+}
+
+.link li a {
+    text-decoration: none;
+    color: black;
+}
+
+@media (max-width: 1100px) {
+    .container-image .tagOne {
+        font-size: 5pc;
+    }
+
+    .content-revolusi {
+        width: 90%;
+    }
+
+    .content-revolusi {
+        width: 80%;
+    }
+
+    .container-image {
+        background-size: cover;
+        background-position: 0px -140px;
+    }
+
+    footer {
+        justify-content: center;
+        gap: 30px;
+    }
+}
+
+@media (max-width: 880px) {
+    .container-image .tagOne {
+        font-size: 4pc;
+    }
+
+    .container-image {
+        background-size: cover;
+        background-position: 0px -120px;
+    }
+
+    .content-revolusi {
+        width: 90%;
+    }
+}
+
+@media (max-width: 770px) {
+    .container-image .tagOne {
+        font-size: 3pc;
+    }
+
+    .content-revolusi {
+        width: 90%;
+    }
+
+    .content-revolusi .link {
+        font-size: 16px;
+    }
+
+    .content-revolusi .tag {
+        font-size: 2pc;
+    }
+
+    .container-image {
+        background-size: cover;
+        background-position: 0px -10px;
+    }
+}
+
+@media (max-width: 600px) {
+    .container-image {
+        background-size: cover;
+        background-position: 0px 0px;
+    }
+
+    .container-image .tagOne {
+        font-size: 40px;
+    }
+
+    .content-revolusi {
+        width: 90%;
+    }
+
+    .content-revolusi .tag {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 500px) {
+    .container-image {
+        background-size: cover;
+        background-position: -40px 0px;
+    }
+
+    .container-image .tagOne {
+        font-size: 40px;
+    }
+
+    .content-revolusi {
+        width: 90%;
+    }
+
+    .content-revolusi .tag {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 400px) {
+    .container-image {
+        background-size: cover;
+        background-position: -100px 0px;
+    }
+
+    .content-revolusi {
+        width: 90%;
+    }
+
+    .container-image .tagOne {
+        font-size: 40px;
+    }
+
+    .content-revolusi .tag {
+        font-size: 30px;
+    }
+}
