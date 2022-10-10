@@ -79,7 +79,7 @@ nav li:hover {
 
 .containerImageOne {
     height: 100vh;
-    background-image: url(/asset/eart.jpg);
+    background-image: url(../asset/eart.jpg);
     background-attachment: fixed;
     background-size: cover;
     display: flex;
@@ -89,7 +89,7 @@ nav li:hover {
 
 .containerImageTwo {
     height: 100vh;
-    background-image: url(/asset/eart2.jpg);
+    background-image: url(../asset/eart2.jpg);
     background-attachment: fixed;
     background-size: cover;
     display: flex;

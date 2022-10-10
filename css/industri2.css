@@ -81,7 +81,7 @@ nav li:hover {
 }
 
 .container-image {
-    background-image: url(/asset/listrik.jpg);
+    background-image: url(../asset/listrik.jpg);
     background-size: cover;
     background-position: 0px -360px;
     height: 60vh;
