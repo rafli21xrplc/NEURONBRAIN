@@ -12,14 +12,7 @@ html {
     scroll-behavior: smooth;
 }
 
-.headerBaru {
-    position: fixed;
-    background-color: #fff;
-    width: 100%;
-    z-index: 1;
-    transition: all .2s ease 0s;
-    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;
-}
+
 
 .headerBaru h2 {
     color: black;
@@ -215,7 +208,6 @@ main {
     gap: 10px;
     width: 48%;
     background-size: cover;
-
 }
 
 .btn-prev,
